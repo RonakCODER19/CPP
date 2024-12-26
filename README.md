@@ -1,1 +1,1 @@
-hi
+inheritance code is here
