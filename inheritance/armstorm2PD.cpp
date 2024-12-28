@@ -31,15 +31,18 @@ class arms : public data
             for(i=1; i<=n; i++)
             {
                 tamp = i;
-            
+
+                while(i>0)
+                {
                     r = i % 10;
                     arm = (r * r * r) + arm;
                     i = i / 10;
-                
-            if(tamp == arm)
-            {
-                cout<<arm<<" ";
-            }
+                }
+                 if (tamp == arm)
+                 {
+                    cout<<tamp;
+                 } 
+
             }
 
         }
