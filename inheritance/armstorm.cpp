@@ -37,13 +37,13 @@ class arm : public data
 
                 }
              
-        if(tamp == arms)
-        {
-            cout<<"its armstorm number ";
-        }
-        else {
-            cout<<"its not armstorm";
-        }
+            if(tamp == arms)
+            {
+                cout<<"its armstorm number ";
+            }
+            else {
+                cout<<"its not armstorm";
+            }
 
         }
 };
